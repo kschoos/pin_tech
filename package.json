@@ -1,0 +1,19 @@
+{
+  "name": "pin_tech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skusku/pin_tech.git"
+  },
+  "author": "skusku",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skusku/pin_tech/issues"
+  },
+  "homepage": "https://github.com/skusku/pin_tech#readme"
+}
