@@ -16,6 +16,8 @@
     "url": "https://github.com/skusku/pin_tech/issues"
   },
   "devDependencies": {
+    "babel-preset-es2016": "^6.0.11",
+    "babel-preset-react": "^6.5.0",
     "chai": "*",
     "mocha": "*"
   },
