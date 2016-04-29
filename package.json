@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/skusku/pin_tech/issues"
   },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
   "homepage": "https://github.com/skusku/pin_tech#readme"
 }
