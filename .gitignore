@@ -3,4 +3,5 @@
 # Only add src folder
 !src/*
 !sass/*
+!docco.sh
 
