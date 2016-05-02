@@ -1,5 +1,3 @@
-"use strict";
-
 var EmailTemplate = require("email-templates").EmailTemplate;
 var path = require("path");
 var nodemailer = require("nodemailer");
@@ -23,12 +21,12 @@ var emailConfiguration = {
 var templateDir = "templates/verification-email";
 var mail = new EmailTemplate(templateDir);
 
-module.exports = function (TO, hash, callback) {
+module.exports = (TO, hash, callback) => {
   // TO can either be a comma seperated list of emails as a string, or an array, or a single email adress.
   if (Array.isArray(TO)) TO = TO.join(",");
 
   emailConfiguration.to = TO;
-  mail.render({ hash: hash }, function (err, result) {
+  mail.render({ hash: hash }, (err, result) => {
     if (err) throw err;
     emailConfiguration.html = result.html;
     transporter.sendMail(emailConfiguration, callback);
