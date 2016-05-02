@@ -15,7 +15,7 @@ app.set("view engine", "jade");
 app.use(session({ secret: "Some ultra secret secret." }))
 app.use(passport.initialize());
 app.use(passport.session());
-app.listen(port. () => {
+app.listen(port, () => {
   console.log("Server up and running on port " + port);
 })
 
