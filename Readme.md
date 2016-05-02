@@ -22,8 +22,8 @@ Testing Framework used:
 The transpilers used in [startwatchers.sh](startwatchers.sh):
 
 1. [Babel CLI](https://babeljs.io/docs/usage/cli/)
-..* [Babel React Preset](https://babeljs.io/docs/plugins/preset-react/)
-..* [Babel ES 2016](https://www.npmjs.com/package/babel-preset-es2016)
+  * [Babel React Preset](https://babeljs.io/docs/plugins/preset-react/)
+  * [Babel ES 2016](https://www.npmjs.com/package/babel-preset-es2016)
 2. [Sass CLI](http://sass-lang.com/install)
 
 And [docco](https://jashkenas.github.io/docco/) for documentation purposes.
