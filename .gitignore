@@ -2,6 +2,6 @@
 *
 # Only add src folder
 !src/*
-!sass/*
+!sass
 !docco.sh
 !Readme.md
