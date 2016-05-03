@@ -1,7 +1,3 @@
-# Remove everything
 *
-# Only add src folder
-!src
-!sass
-!docco.sh
-!Readme.md
+!*/
+!**/.gitignore
