@@ -1,5 +1,6 @@
 *
 !docco.sh
+!user_stories.txt
 !.gitignore
 !*/
 !src/*
