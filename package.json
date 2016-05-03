@@ -40,6 +40,7 @@
     "mongoose": "^4.4.14",
     "nodemailer": "^2.3.2",
     "passport": "^0.3.2",
+    "react-bootstrap": "^0.29.3",
     "react-dom": "^15.0.2"
   }
 }

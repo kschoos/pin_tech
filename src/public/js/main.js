@@ -1,15 +1,33 @@
-var React = require("react");
-var $ = require("jquery");
-var ReactDOM = require("react-dom");
+var $               = require("jquery");
+var React           = require("react");
+var ReactDOM        = require("react-dom");
+var ReactBootstrap  = require("react-bootstrap");
+
+// Components 
+//-------------
+var Header = require("./header.js");
+var Body   = require("./body.js");
+
+var Row    = ReactBootstrap.Row; 
+var Grid   = ReactBootstrap.Grid;
 
 $(document).ready(()=>{
-  ReactDOM.render(<Test/>, document.getElementById("app"));
+  ReactDOM.render(<App/>, document.getElementById("container"));
 })
 
-var Test = React.createClass({
+var App = React.createClass({
   render(){
     return(
-      <div>Even more test</div>
+      <div id="app">
+        <Row>
+          <Header/>  
+        </Row>
+        <Row>
+          <Grid>
+            <Body/>
+          </Grid>
+        </Row>
+      </div>
     )
   }
 })
