@@ -9,7 +9,6 @@
     "css-watch": "sass --watch sass:public/css",
     "client-watch": "watchify public/js/main.js -o public/js/bundle.js -v",
     "livereload": "live-reload --port 5001 public/",
-
     "watch": "parallelshell -v 'npm run js-watch' 'npm run css-watch' 'npm run client-watch'",
     "dev": "parallelshell 'npm run livereload' 'npm run watch'"
   },
@@ -27,9 +26,9 @@
     "babel-preset-es2016": "^6.0.11",
     "babel-preset-react": "^6.5.0",
     "chai": "*",
+    "live-reload": "^1.1.0",
     "mocha": "*",
-    "parallelshell": "^2.0.0",
-    "live-reload": "latest"
+    "parallelshell": "^2.0.0"
   },
   "homepage": "https://github.com/skusku/pin_tech#readme",
   "dependencies": {
