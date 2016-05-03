@@ -1,4 +1,5 @@
 *
+!docco.sh
 !.gitignore
 !*/
 !src/*
