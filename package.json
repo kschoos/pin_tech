@@ -8,7 +8,10 @@
     "js-watch": "babel --presets es2016,react -w src/ -d . --copy-files",
     "css-watch": "sass --watch sass:public/css",
     "client-watch": "watchify public/js/main.js -o public/js/bundle.js -v",
-    "watch": "parallelshell 'npm run js-watch && npm run css-watch && npm run client-watch'"
+    "livereload": "live-reload --port 5001 public/",
+
+    "watch": "parallelshell -v 'npm run js-watch' 'npm run css-watch' 'npm run client-watch'",
+    "dev": "parallelshell 'npm run livereload' 'npm run watch'"
   },
   "repository": {
     "type": "git",
@@ -25,7 +28,8 @@
     "babel-preset-react": "^6.5.0",
     "chai": "*",
     "mocha": "*",
-    "parallelshell": "^2.0.0"
+    "parallelshell": "^2.0.0",
+    "live-reload": "latest"
   },
   "homepage": "https://github.com/skusku/pin_tech#readme",
   "dependencies": {

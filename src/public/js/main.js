@@ -9,7 +9,7 @@ $(document).ready(()=>{
 var Test = React.createClass({
   render(){
     return(
-      <div>Lalala</div>
+      <div>Even more test</div>
     )
   }
 })
